@@ -19,4 +19,58 @@ function getComputerChoice(){
     }
     return;
 }
+const computerSelection = getComputerChoice();
 //The above returns a random answer each time it is run. It is not stored in a variable.
+console.log(computerSelection);
+//this console log is for testing. below follows the rest of the code
+const playerSelection = "ROck";
+//this is also for testing - yet to make the prompt
+
+function playRound(playerSelection, computerSelection){
+    playerSelection = playerSelection.toUpperCase();
+    if (playerSelection == "ROCK"){
+        switch (computerSelection){
+            case "Scissors":
+            return "You win!";
+            break;
+            case "Paper":
+            return "You lose!";
+            break;
+            case "Rock":
+            return "Draw!";
+            break;
+        }
+    } else if (playerSelection == "SCISSORS"){
+        switch (computerSelection){
+            case "Scissors":
+            return "Draw!";
+            break;
+            case "Paper":
+            return "You win!";
+            break;
+            case "Rock":
+            return "You lose!";
+            break;
+    }} else if (playerSelection == "PAPER"){
+        switch (computerSelection){
+            case "Scissors":
+            return "You lose!";
+            break;
+            case "Paper":
+            return "Draw!";
+            break;
+            case "Rock":
+            return "You win!";
+            break;
+        }
+    }
+
+}
+const result = playRound(playerSelection, computerSelection);
+console.log(result);
+//The above is of course more testing
+//
+
+function game(){
+     playRound
+}
