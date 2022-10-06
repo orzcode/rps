@@ -7,6 +7,20 @@
 // UN-COMMENT this when ready (and comment one further down)
 //let playerSelection = prompt("Choose a symbol!", "Rock, paper, or scissors");
 
+
+function game(){
+    for (var gamecount = 0; gamecount < 5; gamecount++) {
+        const element = array[index];
+} 
+if (gamecount == 5) {
+    if (yourscore > computerscore){
+    console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you win!");
+}   else if (yourscore < computerscore){
+    console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you lose!");
+}   else if (yourscore == computerscore){
+    console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you draw!");
+}}
+
 function getComputerChoice(){
     switch (Math.floor(Math.random() * 3))
     {
