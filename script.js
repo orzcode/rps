@@ -4,7 +4,7 @@
 //Tip: use the console to make sure this is returning the expected output before moving to the next step!
 //
 
-// UN-COMMENT this when ready
+// UN-COMMENT this when ready (and comment one further down)
 //let playerSelection = prompt("Choose a symbol!", "Rock, paper, or scissors");
 
 function getComputerChoice(){
