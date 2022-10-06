@@ -4,6 +4,9 @@
 //Tip: use the console to make sure this is returning the expected output before moving to the next step!
 //
 
+// UN-COMMENT this when ready
+//let playerSelection = prompt("Choose a symbol!", "Rock, paper, or scissors");
+
 function getComputerChoice(){
     switch (Math.floor(Math.random() * 3))
     {
@@ -24,7 +27,7 @@ const computerSelection = getComputerChoice();
 console.log(computerSelection);
 //this console log is for testing. below follows the rest of the code
 const playerSelection = "ROck";
-//this is also for testing - yet to make the prompt
+//COMMENT THIS WHEN READY
 
 function playRound(playerSelection, computerSelection){
     playerSelection = playerSelection.toUpperCase();
@@ -71,6 +74,4 @@ console.log(result);
 //The above is of course more testing
 //
 
-function game(){
-     playRound
-}
+
