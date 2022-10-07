@@ -10,11 +10,12 @@
 var totalgames = 0;
 var yourscore = 0;
 var computerscore = 0;
+var gamecount = 0;
 
-function game(){
-    for (var gamecount = 0; gamecount < 5; gamecount++) {
+//function game(){
+//    for (var gamecount = 0; gamecount < 5; gamecount++) {
         //insert loop here;
-} 
+//} 
 
 //in theory, i think this should come last, AFTER the core loop
 //because it calculates the final score
@@ -48,8 +49,9 @@ const computerSelection = getComputerChoice();
 //The above returns a random answer each time it is run. It is not stored in a variable.
 console.log(computerSelection);
 //this console log is for testing. below follows the rest of the code
-const playerSelection = "ROck";
+//const playerSelection = "ROck";
 //COMMENT THIS WHEN READY
+let playerSelection = prompt("Choose a symbol!", "Rock, paper, or scissors");
 
 function playRound(playerSelection, computerSelection){
     playerSelection = playerSelection.toUpperCase();
@@ -57,11 +59,9 @@ function playRound(playerSelection, computerSelection){
         switch (computerSelection){
             case "Scissors":
             return "You win!";
-            yourscore = ++yourscore;
             break;
             case "Paper":
             return "You lose!";
-            computerscore = ++computerscore;
             break;
             case "Rock":
             return "Draw!";
@@ -74,32 +74,40 @@ function playRound(playerSelection, computerSelection){
             break;
             case "Paper":
             return "You win!";
-            yourscore = ++yourscore;
             break;
             case "Rock":
             return "You lose!";
-            computerscore = ++computerscore;
             break;
     }} else if (playerSelection == "PAPER"){
         switch (computerSelection){
             case "Scissors":
             return "You lose!";
-            computerscore = ++computerscore;
             break;
             case "Paper":
             return "Draw!";
             break;
             case "Rock":
             return "You win!";
-            yourscore = ++yourscore;
             break;
         }
     }
-totalgames = totalgames + 1;
 }
-const result = playRound(playerSelection, computerSelection);
+let result = playRound(playerSelection, computerSelection);
+totalgames = totalgames + 1;
+if (result = "\"You win!\"") {
+    yourscore = ++yourscore;
+}   else if (result = "\"You lose!\"") {
+    computerscore = ++computerscore;
+}
+
+    
+
+
 ///////////////
-console.log(result);
+console.log("The result of this match was: " + result);
+console.log("Total games so far: " + totalgames);
+console.log("Your score is: " + yourscore);
+console.log("Computer score is: " + computerscore);
 //The above is of course more testing
 ////////////
 
@@ -107,4 +115,4 @@ console.log(result);
 
 //
 
-}
+
