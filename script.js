@@ -10,7 +10,7 @@
 
 function game(){
     for (var gamecount = 0; gamecount < 5; gamecount++) {
-        const element = array[index];
+        //insert loop here;
 } 
 if (gamecount == 5) {
     if (yourscore > computerscore){
@@ -84,8 +84,13 @@ function playRound(playerSelection, computerSelection){
 
 }
 const result = playRound(playerSelection, computerSelection);
+///////////////
 console.log(result);
 //The above is of course more testing
+////////////
+var totalgames = 0;
+
+
 //
 
 
