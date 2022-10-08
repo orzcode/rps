@@ -67,9 +67,9 @@ function playRound(playerSelection, computerSelection){
 let result = playRound(playerSelection, computerSelection);
 //
 totalgames = totalgames + 1;
-if (result = "\"You win!\"") {
+if (result == "\"You win!\"") {
     yourscore = ++yourscore;
-}   else if (result = "\"You lose!\"") {
+}   else if (result == "\"You lose!\"") {
     computerscore = ++computerscore;
 }
 //
