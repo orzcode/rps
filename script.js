@@ -67,9 +67,9 @@ function playRound(playerSelection, computerSelection){
 let result = playRound(playerSelection, computerSelection);
 //
 totalgames = totalgames + 1;
-if (result === "\"You win!\"") {
+if (result === "You win!") {
     yourscore = yourscore + 1;
-}   else if (result === "\"You lose!\"") {
+}   else if (result === "You lose!") {
     computerscore = computerscore + 1;
 }
 //
@@ -79,7 +79,8 @@ console.log("The result of this match was: " + result);
 console.log("Total games so far: " + totalgames);
 console.log("Your score is: " + yourscore);
 console.log("Computer score is: " + computerscore);
-//alert(result + " Click for next round");
+alert("Round complete! Click for next round");
+//Note: would like to make console display these stats before next round, instead of all at once at game end
 //
 }
 //calculting final outcome - after core loop
