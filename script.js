@@ -67,10 +67,10 @@ function playRound(playerSelection, computerSelection){
 let result = playRound(playerSelection, computerSelection);
 //
 totalgames = totalgames + 1;
-if (result == "\"You win!\"") {
-    yourscore = ++yourscore;
-}   else if (result == "\"You lose!\"") {
-    computerscore = ++computerscore;
+if (result === "\"You win!\"") {
+    yourscore = yourscore + 1;
+}   else if (result === "\"You lose!\"") {
+    computerscore = computerscore + 1;
 }
 //
 console.log("You chose: " + playerSelection);
@@ -79,6 +79,7 @@ console.log("The result of this match was: " + result);
 console.log("Total games so far: " + totalgames);
 console.log("Your score is: " + yourscore);
 console.log("Computer score is: " + computerscore);
+//alert(result + " Click for next round");
 //
 }
 //calculting final outcome - after core loop
