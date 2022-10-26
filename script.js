@@ -4,7 +4,7 @@ var computerscore = 0;
 var gamecount = 0;
 
 function game(){
-    for (var gamecount = 0; gamecount < 5; gamecount++) {
+ //   for (var gamecount = 0; gamecount < 5; gamecount++) {
         //the below will be part of the loop (these are core game functions)
 //
         function getComputerChoice(){
@@ -66,12 +66,12 @@ function playRound(playerSelection, computerSelection){
 }
 let result = playRound(playerSelection, computerSelection);
 //
-totalgames = totalgames + 1;
-if (result === "You win!") {
-    yourscore = yourscore + 1;
-}   else if (result === "You lose!") {
-    computerscore = computerscore + 1;
-}
+// totalgames = totalgames + 1;
+// if (result === "You win!") {
+//     yourscore = yourscore + 1;
+// }   else if (result === "You lose!") {
+//     computerscore = computerscore + 1;
+// }
 //
 console.log("You chose: " + playerSelection);
 console.log("The computer chose: " + computerSelection);
@@ -84,14 +84,14 @@ alert("Round complete! Click for next round");
 //
 }
 //calculting final outcome - after core loop
-if (gamecount == 5) {
-    if (yourscore > computerscore){
-    console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you win!");
-}   else if (yourscore < computerscore){
-    console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you lose!");
-}   else if (yourscore == computerscore){
-    console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you draw!");
-}}
+// if (gamecount == 5) {
+//     if (yourscore > computerscore){
+//     console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you win!");
+// }   else if (yourscore < computerscore){
+//     console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you lose!");
+// }   else if (yourscore == computerscore){
+//     console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you draw!");
+// }}
 //
-}
+// }
 game();
