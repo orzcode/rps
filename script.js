@@ -24,7 +24,7 @@ function game(){
 }
 const computerSelection = getComputerChoice();
 //
-let playerSelection = prompt("Choose a symbol!", "Rock, paper, or scissors");
+//let playerSelection = prompt("Choose a symbol!", "Rock, paper, or scissors");
 function playRound(playerSelection, computerSelection){
     playerSelection = playerSelection.toUpperCase();
     if (playerSelection == "ROCK"){
@@ -96,3 +96,16 @@ alert("Round complete! Click for next round");
 // }
 
 game();
+
+//
+const rock = document.querySelector('#rock');
+
+rock.addEventListener("click", playRound());
+
+const scissors = document.querySelector('#scissors');
+
+scissors.addEventListener("click", playRound());
+
+const paper = document.querySelector('#paper');
+
+paper.addEventListener("click", playRound());
