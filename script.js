@@ -23,7 +23,7 @@ scissors.addEventListener("click", game);
 function game(){
  //   for (var gamecount = 0; gamecount < 5; gamecount++) {
 //
-        function getComputerChoice(){
+function getComputerChoice(){
     switch (Math.floor(Math.random() * 3))
     {
         case 0:
@@ -108,7 +108,3 @@ alert("Round complete! Click for next round");
 // }}
 //
 // }
-
-//game();
-
-//
