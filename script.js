@@ -28,13 +28,10 @@ function getComputerChoice(){
     {
         case 0:
         return "Rock";
-        break;
         case 1:
         return "Scissors";
-        break;
         case 2:
         return "Paper";
-        break;
     }
     return;
 }
@@ -46,36 +43,27 @@ function playRound(playerSelection, computerSelection){
         switch (computerSelection){
             case "Scissors":
             return "You win!";
-            break;
             case "Paper":
             return "You lose!";
-            break;
             case "Rock":
             return "Draw!";
-            break;
         }
     } else if (playerSelection == "SCISSORS"){
         switch (computerSelection){
             case "Scissors":
             return "Draw!";
-            break;
             case "Paper":
             return "You win!";
-            break;
             case "Rock":
             return "You lose!";
-            break;
     }} else if (playerSelection == "PAPER"){
         switch (computerSelection){
             case "Scissors":
             return "You lose!";
-            break;
             case "Paper":
             return "Draw!";
-            break;
             case "Rock":
             return "You win!";
-            break;
         }
     }
 }
