@@ -83,11 +83,28 @@ if (result === "You win!") {
 }
 ////
 
-//Logging section - DOM these, but maybe keep them too for debugging
-const youChose = document.createElement("h3");
-youChose.innerHTML = playerSelection;
-document.getElementById("youchose").appendChild(youChose);
+//Live results display via DOM
+const youChose = document.querySelector('#youChose');
+youChose.textContent = "You chose... " + playerSelection;
 
+const aiChose = document.querySelector('#aiChose');
+aiChose.textContent = "A.I. chose... " + computerSelection;
+
+const resultDOM = document.querySelector('#resultDOM');
+resultDOM.textContent = "The result is... " + result;
+
+const totalRounds = document.querySelector('#totalRounds');
+totalRounds.textContent = "Total rounds so far: " + totalgames;
+
+const yourscoreDOM = document.querySelector('#yourScore');
+yourscoreDOM.textContent = "Your score: " + yourscore;
+
+const aiScore = document.querySelector('#aiScore');
+aiScore.textContent = "A.I. score: " + computerscore;
+////
+
+
+//Logging
 console.log("You chose: " + playerSelection);
 console.log("The computer chose: " + computerSelection);
 console.log("The result of this match was: " + result);
