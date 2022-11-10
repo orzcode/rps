@@ -84,6 +84,10 @@ if (result === "You win!") {
 ////
 
 //Logging section - DOM these, but maybe keep them too for debugging
+const youChose = document.createElement("h3");
+youChose.innerHTML = playerSelection;
+document.getElementById("youchose").appendChild(youChose);
+
 console.log("You chose: " + playerSelection);
 console.log("The computer chose: " + computerSelection);
 console.log("The result of this match was: " + result);

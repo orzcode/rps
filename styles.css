@@ -6,28 +6,28 @@ border: solid white 1px;
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(88, 102, 115);
     
 }
 
 .h1Title {
-    margin-left: 50%;
     text-align: center;
 }
 
 .selectionPanel {
     display: flex;
-    background-color: rgb(32, 43, 98);
-    /* background-color: #008dd4; */
     justify-content: space-between;
-    height: 300px;
-    width: 75%;
-    padding: 20px;
+    height: 15vw;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    padding: 1%;
     border-radius: 25px;
     align-self: center;
 }
 
 .selectionPanelButton {
     object-fit: contain;
-    border-radius: 45px;
+    border-radius: 25%;
+    border: solid 5px black;
+    background-color: bisque;
 }
