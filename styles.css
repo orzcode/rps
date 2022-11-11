@@ -2,7 +2,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-border: solid white 1px;
+/* border: solid white 1px; */
 }
 
 body {
@@ -13,17 +13,17 @@ h1 {
     text-align: center;
     font-family: archivo, serif;
     font-size: 3rem;
-    padding: 5rem 0rem;
+    padding: 4rem 0rem;
 }
 
 .selectionPanel {
     display: flex;
     justify-content: center;
-    gap: 8em;
+    gap: 6em;
     height: fit-content;
     width: auto;
     margin: auto;
-    
+    margin-bottom: 2em;
     border-radius: 25px;
 }
 
@@ -33,7 +33,7 @@ h1 {
     width: 150px;
     border-radius: 25%;
     border: solid 5px black;
-    background-color: bisque;
+    background-color: rgb(170, 144, 113);
 }
 
 #trio {
@@ -46,7 +46,7 @@ h1 {
 #trioDiv {
     margin: auto;
     width: fit-content;
-    padding-top: 1em;
+   
 }
 
 .results, .scores {
@@ -55,12 +55,16 @@ h1 {
     letter-spacing: 0.1rem;
     margin: auto;
     width: max-content;
-    padding-top: 2rem;
+    
 }
 
 .results h3, .scores h3 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+}
+
+.scores {
+    font-style: italic;
 }
 
 .tableLeft {
