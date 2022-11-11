@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chivo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jan, Ken, Pon! (Rock Paper Scissors, in Japanese)</title>
 </head>
 <body>
-    <h1 class="h1Title">Jan, Ken, Pon!</h1>
+    <h1>Jan, Ken, Pon!</h1>
 
 <div class="selectionPanel">
     <img class="selectionPanelButton" id="rock" src="rock.svg">
@@ -16,15 +18,37 @@
     <img class="selectionPanelButton" id="paper" src="paper.svg">
 </div>
 <div class="results">
-    <h3 id="youChose">You chose... </h3>
-    <h3 id="aiChose">A.I. chose... </h3>
-    <h3 id="resultDOM">The result is... </h3>
+    <table>
+    <tr>
+        <td class="tableLeft"><h3>You chose... </h3></td>
+        <td class="tableRight"><h3 id="youChose"></h3></td>
+    </tr>
+    <tr>
+        <td class="tableLeft"><h3>A.I. chose... </h3></td>
+        <td class="tableRight"><h3 id="aiChose"></h3></td>
+    </tr>
+    <tr>
+        <td class="tableLeft"><h3>The result is...</h3></td>
+        <td class="tableRight"><h3 id="resultDOM"></h3></td>
+    </tr>
+    </table>
 </div>
-<!-- <img id="trio" src="trio.svg"> -->
+<div id="trioDiv"><img id="trio" src="trio.svg"></div>
 <div class="scores">
-    <h3 id="totalRounds">Total rounds so far: </h3>
-    <h3 id="yourScore">Your score: </h3>
-    <h3 id="aiScore">A.I. score: </h3>
+    <table>
+    <tr>
+        <td class="tableLeft"><h3>Your score: </h3></td>
+        <td class="tableRight"><h3 id="yourScore"></h3></td>
+    </tr>
+    <tr>
+        <td class="tableLeft"><h3>A.I. score: </h3></td>
+        <td class="tableRight"><h3 id="aiScore"></h3></td>
+    </tr>
+    <tr>
+        <td class="tableLeft"><h3>Total rounds: </h3></td>
+        <td class="tableRight"><h3 id="totalRounds"></h3></td>
+    </tr>
+    </table>
 </div>
     <script src="script.js"></script>
 </body>

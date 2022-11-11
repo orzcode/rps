@@ -8,15 +8,15 @@ let playerSelection;
 
 //DOM Manipulation
 const rock = document.querySelector('#rock');
-rock.addEventListener("click", () => playerSelection = "ROCK")
+rock.addEventListener("click", () => playerSelection = "Rock")
 rock.addEventListener("click", game);
 
 const paper = document.querySelector('#paper');
-paper.addEventListener("click", () => playerSelection = "PAPER")
+paper.addEventListener("click", () => playerSelection = "Paper")
 paper.addEventListener("click", game);
 
 const scissors = document.querySelector('#scissors');
-scissors.addEventListener("click", () => playerSelection = "SCISSORS")
+scissors.addEventListener("click", () => playerSelection = "Scissors")
 scissors.addEventListener("click", game);
 
 ////
@@ -43,7 +43,7 @@ const computerSelection = getComputerChoice();
 
 //Runs the round based on the two 'inputs'
 function playRound(playerSelection, computerSelection){
-    if (playerSelection == "ROCK"){
+    if (playerSelection == "Rock"){
         switch (computerSelection){
             case "Scissors":
             return "You win!";
@@ -52,7 +52,7 @@ function playRound(playerSelection, computerSelection){
             case "Rock":
             return "Draw!";
         }
-    } else if (playerSelection == "SCISSORS"){
+    } else if (playerSelection == "Scissors"){
         switch (computerSelection){
             case "Scissors":
             return "Draw!";
@@ -60,7 +60,7 @@ function playRound(playerSelection, computerSelection){
             return "You win!";
             case "Rock":
             return "You lose!";
-    }} else if (playerSelection == "PAPER"){
+    }} else if (playerSelection == "Paper"){
         switch (computerSelection){
             case "Scissors":
             return "You lose!";
@@ -85,22 +85,22 @@ if (result === "You win!") {
 
 //Live results display via DOM
 const youChose = document.querySelector('#youChose');
-youChose.textContent = "You chose... " + playerSelection;
+youChose.textContent = playerSelection;
 
 const aiChose = document.querySelector('#aiChose');
-aiChose.textContent = "A.I. chose... " + computerSelection;
+aiChose.textContent = computerSelection;
 
 const resultDOM = document.querySelector('#resultDOM');
-resultDOM.textContent = "The result is... " + result;
+resultDOM.textContent = result;
 
 const totalRounds = document.querySelector('#totalRounds');
-totalRounds.textContent = "Total rounds so far: " + totalgames;
+totalRounds.textContent = totalgames;
 
 const yourscoreDOM = document.querySelector('#yourScore');
-yourscoreDOM.textContent = "Your score: " + yourscore;
+yourscoreDOM.textContent = yourscore;
 
 const aiScore = document.querySelector('#aiScore');
-aiScore.textContent = "A.I. score: " + computerscore;
+aiScore.textContent = computerscore;
 ////
 
 

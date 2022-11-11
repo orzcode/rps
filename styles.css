@@ -6,28 +6,71 @@ border: solid white 1px;
 }
 
 body {
-    background-color: rgb(88, 102, 115);
-    
+    background-color: rgb(88, 102, 115);    
 }
 
-.h1Title {
+h1 {
     text-align: center;
+    font-family: archivo, serif;
+    font-size: 3rem;
+    padding: 5rem 0rem;
 }
 
 .selectionPanel {
     display: flex;
-    justify-content: space-between;
-    height: 15vw;
-    margin-right: 25vw;
-    margin-left: 25vw;
-    padding: 1%;
+    justify-content: center;
+    gap: 8em;
+    height: fit-content;
+    width: auto;
+    margin: auto;
+    
     border-radius: 25px;
-    align-self: center;
 }
 
 .selectionPanelButton {
-    object-fit: contain;
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
     border-radius: 25%;
     border: solid 5px black;
     background-color: bisque;
+}
+
+#trio {
+    object-fit: fill;
+    height: 120px;
+    width: 120px;    
+    border-radius: 25%;
+}
+
+#trioDiv {
+    margin: auto;
+    width: fit-content;
+    padding-top: 1em;
+}
+
+.results, .scores {
+    font-family: archivo, serif;
+    font-size: 1.4em;    
+    letter-spacing: 0.1rem;
+    margin: auto;
+    width: max-content;
+    padding-top: 2rem;
+}
+
+.results h3, .scores h3 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.tableLeft {
+    text-align: left;
+    min-width: max-content;
+    width: 14rem;
+}
+
+.tableRight {
+    text-align: right;
+    width: 10rem;
+    min-width: max-content;
 }
