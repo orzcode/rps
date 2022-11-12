@@ -13,7 +13,7 @@ h1 {
     text-align: center;
     font-family: archivo, serif;
     font-size: 3rem;
-    padding: 4rem 0rem;
+    padding: 3rem 0rem;
 }
 
 .selectionPanel {
@@ -67,6 +67,13 @@ h1 {
     font-style: italic;
 }
 
+table {
+    /* border: dashed rgb(30, 30, 30) 0.1rem; */
+    /* box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+    padding: 0.4rem; */
+    box-shadow: 0 -5px 3px -3px rgb(0 0 0 / 20%), 0 5px 3px -3px rgb(0 0 0 / 20%);
+}
+
 .tableLeft {
     text-align: left;
     min-width: max-content;
@@ -78,3 +85,13 @@ h1 {
     width: 10rem;
     min-width: max-content;
 }
+
+/*-----------CLICK AND HOVER EFFECTS-------------*/
+.click:hover {background-color: rgb(157, 129, 94)}
+
+.click:active {
+    background-color: rgb(157, 129, 94);
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+/*-----------CLICK AND HOVER EFFECTS-------------*/
