@@ -1,9 +1,3 @@
-Image licenses:
+Visual interface for Rock Paper Scissors game project
 
-https://thenounproject.com/icon/fist-477918/
-
-https://thenounproject.com/icon/wave-477912/
-
-https://thenounproject.com/icon/scissors-477919/
-
-https://thenounproject.com/icon/game-3971461/
+Icons are used under Creative Commons license (CC BY 3.0) (https://creativecommons.org/licenses/by/3.0/) with minor adjustments to presentability, credited to Adrien Coquet and Cristiano Zoucas
