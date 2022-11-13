@@ -4,6 +4,7 @@ let yourscore = 0;
 let computerscore = 0;
 let gamecount = 0;
 let playerSelection;
+
 ////
 
 //DOM Manipulation
@@ -103,6 +104,12 @@ const aiScore = document.querySelector('#aiScore');
 aiScore.textContent = computerscore;
 ////
 
+//Final match result reveal - needs to be moved
+const matchReveal = document.querySelector('#matchReveal');
+const matchRevealDiv = document.querySelector('#matchRevealDiv');
+
+
+////
 
 //Logging
 console.log("You chose: " + playerSelection);
@@ -116,15 +123,18 @@ console.log("Computer score is: " + computerscore);
 //Calculting final outcome - only once 5 totalgames reached - then resets totalgames and respective scores
 if (totalgames == 5) {
     if (yourscore > computerscore){
-    console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you win!");
+    matchReveal.textContent = "win!";    
 }   else if (yourscore < computerscore){
-    console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you lose!");
+    matchReveal.textContent = "lose!";
 }   else if (yourscore == computerscore){
-    console.log("Match complete! Your score was " + yourscore + " compared to the computer's " + computerscore + " which means you draw!");
+    matchReveal.textContent = "drew!";
 }
+    matchRevealDiv.style.visibility = 'visible'; 
     totalgames = 0;
     yourscore = 0;
     computerscore = 0;
+} else if (totalgames == 1){
+    matchRevealDiv.style.visibility = 'hidden'; 
 };
 ////
 }

@@ -68,7 +68,7 @@ h1 {
     font-style: italic;
 }
 
-#matchComplete {
+#matchRevealDiv {
     font-family: archivo, serif;
     visibility: hidden;
     font-size: 1.4rem;
@@ -77,6 +77,10 @@ h1 {
     margin-bottom: 1.4vh;
     color: rgb(241, 241, 241);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#matchReveal {
+    display: inline;
 }
 
 table {
