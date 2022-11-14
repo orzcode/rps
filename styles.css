@@ -37,6 +37,16 @@ h1 {
     background-color: rgb(170, 144, 113);
 }
 
+@media only screen and (max-device-width: 640px) {
+    .selectionPanel {
+      gap: 1em;
+    }
+    .selectionPanelButton {
+        height: 100px;
+        width: 100px;
+    }
+  }
+
 #trio {
     object-fit: fill;
     height: 120px;

@@ -4,10 +4,9 @@ let yourscore = 0;
 let computerscore = 0;
 let gamecount = 0;
 let playerSelection;
-
 ////
 
-//DOM Manipulation
+//Click events - launches the game function
 const rock = document.querySelector('#rock');
 rock.addEventListener("click", () => playerSelection = "Rock")
 rock.addEventListener("click", game);
@@ -19,7 +18,6 @@ paper.addEventListener("click", game);
 const scissors = document.querySelector('#scissors');
 scissors.addEventListener("click", () => playerSelection = "Scissors")
 scissors.addEventListener("click", game);
-
 ////
 
 
@@ -104,20 +102,9 @@ const aiScore = document.querySelector('#aiScore');
 aiScore.textContent = computerscore;
 ////
 
-//Final match result reveal - needs to be moved
+//Final match result reveal
 const matchReveal = document.querySelector('#matchReveal');
 const matchRevealDiv = document.querySelector('#matchRevealDiv');
-
-
-////
-
-//Logging
-console.log("You chose: " + playerSelection);
-console.log("The computer chose: " + computerSelection);
-console.log("The result of this match was: " + result);
-console.log("Total games so far: " + totalgames);
-console.log("Your score is: " + yourscore);
-console.log("Computer score is: " + computerscore);
 ////
 
 //Calculting final outcome - only once 5 totalgames reached - then resets totalgames and respective scores
