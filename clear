@@ -1,0 +1,181 @@
+[33mcommit f7fe7d44e98b57c4197d0cf4deab6f2d7182696f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/rps-ui[m[33m, [m[1;32mrps-ui[m[33m)[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Sun Nov 13 16:54:08 2022 +1300
+
+    finish match reset reveal;  final draft
+
+[33mcommit 05019bffab9eb539db673b919ae90aa3fb471393[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Sun Nov 13 11:03:27 2022 +1300
+
+    hide cursor, add match complete text, prepped for JS
+
+[33mcommit 7797534c541146ea120bed1952720d359dad40b4[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Sat Nov 12 14:18:02 2022 +1300
+
+    add hover and click effects
+
+[33mcommit 8ac30fa9cac33496f75f3fb67399a6a3c4ac95e8[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Fri Nov 11 22:10:25 2022 +1300
+
+    minor tweak
+
+[33mcommit 9700126bc229296b043776ae7dd1330e08527868[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Fri Nov 11 16:45:53 2022 +1300
+
+    style score tables, image sizing cleanup
+
+[33mcommit 09ffac371a247efce72032fe9ef1dd1469813c0d[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Thu Nov 10 17:05:42 2022 +1300
+
+    DOM logging done, needs styling
+
+[33mcommit 425079b9fd0c0a67b41459d8863ccd672ea01b7c[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Thu Nov 10 16:48:48 2022 +1300
+
+    new icons, new styles
+
+[33mcommit 8e0422c891f88a046d6f0dd4e25df61178ac87c1[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Wed Nov 9 17:05:41 2022 +1300
+
+    cleanup code, prepare for DOM Div
+
+[33mcommit 0ca52165d45ffaec470d1b0fc946380fa08658ca[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Wed Nov 9 16:29:29 2022 +1300
+
+    minor cleanup
+
+[33mcommit 5700ab91814c1e94735bdce838c040ff122dda01[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Wed Nov 9 16:21:51 2022 +1300
+
+    minor update
+
+[33mcommit 891c7d8adddec43b1faecbea7cd0666727fda494[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Wed Nov 9 16:11:21 2022 +1300
+
+    clickable buttons working, stage 1 before loop
+
+[33mcommit 795d5f37e7d497a745abfed0496310a7044a6047[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Thu Oct 27 16:39:23 2022 +1300
+
+    add RPS selection images#
+
+[33mcommit e6bf3b675c3f26448b9d01f02e9624b7d655b0f9[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Thu Oct 27 16:39:10 2022 +1300
+
+    initial page display with icons
+
+[33mcommit e95699fe2f3626650ceea932045ce5f948761989[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Wed Oct 26 17:05:07 2022 +1300
+
+    commented logic that loops 5 rounds (and related score)
+
+[33mcommit a7d3b0f9fba0eee41a8cba9752b27c8a1e993859[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Wed Oct 26 16:31:44 2022 +1300
+
+    initial commit (readme update)
+
+[33mcommit d8f154e5ceef969e91fb1a7a8957a061f872366e[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Mon Oct 10 10:54:50 2022 +1300
+
+    completed version
+
+[33mcommit d7743d08b31a86a63c8141b0da5b03e83a536933[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Sun Oct 9 13:11:34 2022 +1300
+
+    update with triple === signs
+
+[33mcommit 386a51a1b545b28580ffd517e57c5d22662c91b3[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Sat Oct 8 18:09:02 2022 +1300
+
+    latest version, correctly declaring wins/losses
+    yourscore and compscore aren't incrementing tho
+
+[33mcommit c282b4c0af3cdafa0e871554620758358d3d3880[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Sat Oct 8 15:45:43 2022 +1300
+
+    cleaned up slightly, looped, but not working
+
+[33mcommit 9978322473f06a95a36991ad1230f2577664cdab[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Fri Oct 7 16:48:30 2022 +1300
+
+    Preliminary working version - before loop.
+
+[33mcommit c30722ea4e45d605385eb5c6106c7ad348e98a98[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Fri Oct 7 16:28:37 2022 +1300
+
+    add score increment (maybe unstable)
+
+[33mcommit f6c9a6da7b3f4bb5009442dba766ef921d595738[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Fri Oct 7 16:28:14 2022 +1300
+
+    add score incrementing (beta)
+    possibly unstable
+
+[33mcommit 0d29a0a94f4120405d4b5c616f1cd38b19ecec19[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Thu Oct 6 18:32:22 2022 +1300
+
+    add game() function opening, AND score calculation
+
+[33mcommit a6a84d8eada168466ddb5789db626c0b96802637[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Thu Oct 6 15:25:18 2022 +1300
+
+    minor edit
+
+[33mcommit 240321c178521da5a4928278bb37b979ceb4267a[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Thu Oct 6 14:45:06 2022 +1300
+
+    breakpoint appended, good to go, prompt added
+
+[33mcommit da377421bb6bf6fc14fb725650a0edc5564f568a[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Wed Oct 5 23:19:41 2022 +1300
+
+    Saving Good version before making playRound
+
+[33mcommit 4f90cd3c3fca3c6ac489ce6fa71d1a13377d668b[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Tue Oct 4 22:50:27 2022 +1300
+
+    Complete Computer's Play function
+
+[33mcommit 06f37b3fd016c2ec0113df3f9a9640a8883c6b08[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Mon Oct 3 16:20:48 2022 +1300
+
+    add js first commit
+
+[33mcommit 431e4ec501665fa4c01a809114bad8b700059318[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Mon Oct 3 16:11:39 2022 +1300
+
+    add README
+
+[33mcommit a360a8497e7120fbc227498e594d690a30f6481c[m
+Author: kambostrong <71000311+kambostrong@users.noreply.github.com>
+Date:   Mon Oct 3 16:10:45 2022 +1300
+
+    first commit
