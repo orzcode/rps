@@ -20,11 +20,11 @@ h1 {
 .selectionPanel {
     display: flex;
     justify-content: center;
-    gap: 6em;
+    gap: 6rem;
     height: fit-content;
     width: auto;
     margin: auto;
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
     border-radius: 25px;
 }
 
@@ -39,7 +39,7 @@ h1 {
 
 @media only screen and (max-device-width: 640px) {
     .selectionPanel {
-      gap: 1em;
+      gap: 1rem;
     }
     .selectionPanelButton {
         height: 100px;
@@ -62,7 +62,7 @@ h1 {
 
 .results, .scores {
     font-family: archivo, serif;
-    font-size: 1.4em;    
+    font-size: 1.4rem;    
     letter-spacing: 0.1rem;
     margin: auto;
     width: max-content;
@@ -94,9 +94,6 @@ h1 {
 }
 
 table {
-    /* border: dashed rgb(30, 30, 30) 0.1rem; */
-    /* box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
-    padding: 0.4rem; */
     box-shadow: 0 -5px 3px -3px rgb(0 0 0 / 20%), 0 5px 3px -3px rgb(0 0 0 / 20%);
 }
 
